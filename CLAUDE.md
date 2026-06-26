@@ -275,6 +275,14 @@ animaties uitgeschakeld via CSS, en de emblem-animatie wordt niet gestart.
 
 ## Redactionele principes
 
+### Gebruik van `<strong>`
+
+`<strong>` markeert eigennamen van gebouwen, straten, instellingen en personen bij hun **eerste substantiële introductie**, mits de naam herkenbaar is of was in de fysieke buurt.
+
+Niet markeren: soortnamen (middenstandswoningen, appartementencomplex, gashouders), datums, namen die alleen in een opsomming passeren zonder verdere uitwerking. Als een persoons- en instellingsnaam in opeenvolgende zinnen dezelfde entiteit beschrijven, kies dan de instellingsnaam bij eerste introductie.
+
+---
+
 ### Verboden
 
 - **Uitgevonden causale verbanden**: schrijf nooit "X leidde tot Y" of "door X ontstond Y"
