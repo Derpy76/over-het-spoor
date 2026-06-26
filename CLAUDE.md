@@ -199,7 +199,7 @@ Altijd een beschrijvende `alt`-tekst.
 | `.weetje` | Callout voor verrassende feiten (brick-balk links) |
 | `.weetje__tag` | Label boven de weetje-tekst |
 | `.diptych` | 2-koloms grid voor vergelijkingskaarten |
-| `.ot` | Kaart binnen `.diptych` (van/naar herontwikkeling) |
+| `.ot` | Kaart binnen `.diptych` (van/naar herontwikkeling). Op een lichte sectie krijgt de rand automatisch de donkere `--line`-kleur via `.chapter:not(.band--dark) .ot`; op een `band--dark` sectie blijft de lichte rand. |
 | `.ot__from` | Oorspronkelijke functie |
 | `.ot__arrow` | Pijl (↓) |
 | `.ot__to` | Huidige/toekomstige functie |
@@ -245,6 +245,7 @@ animaties uitgeschakeld via CSS, en de emblem-animatie wordt niet gestart.
 | `image-2.jpg` | Ansichtkaart Cuypersplein + kerk | |
 | `image-3.jpg` | Ansichtkaart H. Hartkerk | |
 | `image-4.jpg` | Ansichtkaart woningen Jan van Laren | |
+| `sagvfoto3755.jpeg` | Luchtfoto ensemble: H. Hartkerk + St. Willibrordusschool (SAGV) | |
 | `image-6.jpg` | Albert Heijn hoek Cuypersplein | |
 | `image-7.jpg` | Luchtfoto ijzergieterij Ensink 1975 | |
 | `image-8.jpg` | Luchtfoto gasfabriek met gashouders | |
@@ -257,7 +258,7 @@ animaties uitgeschakeld via CSS, en de emblem-animatie wordt niet gestart.
 | `JvdH_Panorama.jpg` | Panorama Jan van der Heijdenstraat | |
 | `JvdH_Cuypers_Panorama.jpeg` | Panorama richting Cuypersplein | |
 | `Cuypers79.jpg` | Cuypersplein 1979 | |
-| `Hilversum Station Oud.jpg` | Oud stationsgebouw Hilversum | |
+| `hilversum-station-oud.jpg` | Oud stationsgebouw Hilversum | |
 
 ---
 
@@ -299,6 +300,10 @@ animaties uitgeschakeld via CSS, en de emblem-animatie wordt niet gestart.
 - Feiten mogen voor zichzelf spreken
 - `.weetje` callouts zijn toegestaan voor verrassende details, maar alleen als het
   detail aantoonbaar is
+- Archiefbewijs hoort niet in de lopende tekst: noem het feit gewoon (jaartal, naam),
+  en zet de onderbouwing (inventarisnummers, rekensommen, "zoals blijkt uit...") in de
+  bronvermelding. Geen opsomming van jaartallen als technische notitie; de tekst blijft
+  verhalend en toegankelijk
 
 ---
 

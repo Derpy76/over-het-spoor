@@ -120,6 +120,7 @@
   .diptych{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.8rem;}
   @media(max-width:680px){.diptych{grid-template-columns:1fr;}}
   .ot{border:1px solid var(--line-light);padding:1.6rem;}
+  .chapter:not(.band--dark) .ot{border-color:var(--line);}
   .ot__from{font-family:"Space Mono",monospace;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);}
   .ot__arrow{font-family:"Big Shoulders Display",sans-serif;font-size:1.6rem;color:var(--brass);line-height:1;margin:.4rem 0;}
   .ot__to{font-family:"Big Shoulders Display",sans-serif;font-weight:700;text-transform:uppercase;font-size:1.5rem;letter-spacing:.02em;}
