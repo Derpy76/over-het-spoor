@@ -246,6 +246,7 @@ animaties uitgeschakeld via CSS, en de emblem-animatie wordt niet gestart.
 | `image-3.jpg` | Ansichtkaart H. Hartkerk | |
 | `image-4.jpg` | Ansichtkaart woningen Jan van Laren | |
 | `sagvfoto3755.jpeg` | Luchtfoto ensemble: H. Hartkerk + St. Willibrordusschool (SAGV) | |
+| `Willibrordus.jpg` | Vooraanzicht St. Willibrordusschool, 1928 | Bron: Het nieuws van den dag voor Nederlandsch-Indië, 10 november 1928 |
 | `image-6.jpg` | Albert Heijn hoek Cuypersplein | |
 | `image-7.jpg` | Luchtfoto ijzergieterij Ensink 1975 | |
 | `image-8.jpg` | Luchtfoto gasfabriek met gashouders | |
