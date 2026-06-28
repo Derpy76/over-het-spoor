@@ -23,9 +23,9 @@ op GitHub Pages met GoatCounter voor privacyvriendelijke bezoekersstatistieken.
 
 ```
 /
-├── index.html                      # hoofdpagina: Cuypersplein / Over 't Spoor
-├── de-gooische-moordenaar.html     # companion page Gooische Stoomtram
+├── index.html                      # enige pagina: hele verhaal, incl. tramhoofdstuk 'De Gooische Moordenaar'
 ├── [nieuwe pagina's hier]          # naamconventie: kebab-case, beschrijvend, .html
+│                                   # (aparte verdiepingspagina, bijv. over de stoomtram, is een toekomstplan)
 │
 ├── style.css                       # alle gedeelde stijlen en design tokens
 ├── script.js                       # animaties en scroll-reveal (zie Script)
@@ -253,9 +253,9 @@ animaties uitgeschakeld via CSS, en de emblem-animatie wordt niet gestart.
 | `image-9.jpg` | Politiepost/herenkapper Verbeek | |
 | `image-10.jpg` | Ansichtkaart Jan van der Heijdenstraat | |
 | `image-11.jpg` | Luchtfoto NSF-fabriek 1921 | |
-| `Moordenaar.jpg` | Gooische Moordenaar trampage (hero) | |
-| `kaart_gooischenstoomtram.jpg` | Tramnetkaart trampage | |
-| `Mauve_Erfgooier.jpg` | Schilderij Erfgooier (trampage) | |
+| `Moordenaar.jpg` | Tramhoofdstuk: foto Gooische Stoomtram | |
+| `kaart_gooischenstoomtram.jpg` | Tramhoofdstuk: netkaart Gooische Stoomtram | |
+| `Mauve_Erfgooier.jpg` | Stuifzand-hoofdstuk: schilderij Anton Mauve (heide) | |
 | `JvdH_Panorama.jpg` | Panorama Jan van der Heijdenstraat | |
 | `JvdH_Cuypers_Panorama.jpeg` | Panorama richting Cuypersplein | |
 | `Cuypers79.jpg` | Cuypersplein 1979 | |
