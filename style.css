@@ -71,7 +71,7 @@
     float:left;font-size:4.6rem;line-height:.72;padding:.35rem .5rem 0 0;color:var(--brick);}
 
   section.chapter{padding-block:clamp(3rem,7vh,5rem);border-top:1px solid var(--line);}
-  .band--dark{background:var(--slate);color:var(--plaster);border-top:0;}
+  .band--dark{background:var(--slate);color:var(--plaster);border-top:0;--brass:#C99A3C;}
   .chapter__head{margin-bottom:1.6rem;}
 
   /* ---------- real photos ---------- */
@@ -127,7 +127,7 @@
   .ot p{font-size:.98rem;margin:.6rem 0 0;opacity:.9;}
 
   /* credits */
-  .credits{background:var(--slate-deep);color:var(--plaster);}
+  .credits{background:var(--slate-deep);color:var(--plaster);--brass:#C99A3C;}
   .credits .col{padding-block:clamp(3rem,7vh,4.5rem);}
   .credits h2{font-family:"Space Mono",monospace;font-weight:700;font-size:.9rem;
     letter-spacing:.04em;line-height:1.5;color:var(--brass);margin:0 0 .9rem;} .credits .eyebrow{color:var(--brass);} .credits .eyebrow::before{background:var(--brass);}
@@ -141,7 +141,15 @@
   .badge{display:inline-block;font-weight:700;text-transform:uppercase;letter-spacing:.08em;
     padding:.1rem .45rem;border:1px solid currentColor;border-radius:2px;font-size:.68rem;margin-top:.4rem;}
   .badge.free{color:#a9bd92;} .badge.ask{color:var(--brass);} .badge.own{color:#cdb98f;}
-  .sources{border-top:1px solid var(--line-light);margin-top:2.5rem;padding-top:1.8rem;
+  .sources-details{border-top:1px solid var(--line-light);margin-top:2.5rem;}
+  .sources-details summary{font-family:"Space Mono",monospace;font-size:.78rem;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--brass);cursor:pointer;padding-top:1.8rem;padding-bottom:.6rem;
+    list-style:none;display:flex;align-items:center;gap:.7rem;user-select:none;}
+  .sources-details summary::before{content:"";width:1.8rem;height:1px;background:var(--brass);display:inline-block;flex-shrink:0;}
+  .sources-details summary::after{content:"Toon ↓";font-size:.78rem;margin-left:auto;transition:opacity .2s ease;}
+  .sources-details[open] summary::after{content:"Verberg ↑";}
+  .sources-details summary::-webkit-details-marker{display:none;}
+  .sources{border-top:1px solid var(--line-light);margin-top:0;padding-top:1.8rem;
     font-family:"Space Mono",monospace;font-size:.78rem;line-height:1.7;opacity:.85;}
   .sources b{color:var(--brass);font-weight:700;}
   footer.foot{background:var(--ink);color:var(--plaster);text-align:center;padding-block:2.5rem;
