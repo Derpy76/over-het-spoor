@@ -1,4 +1,5 @@
-﻿const tl=document.querySelector('.timeline');
+﻿document.documentElement.classList.add('js-loaded');
+const tl=document.querySelector('.timeline');
   const tlOuter=document.querySelector('.timeline-outer');
   if(tl&&tlOuter){
     const updateFade=()=>{

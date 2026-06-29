@@ -179,8 +179,9 @@
   .weetje p{font-size:1.02rem;margin:0;}
   .weetje p + p{margin-top:.7rem;}
 
-  .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease;}
-  .reveal.in{opacity:1;transform:none;}
+  .reveal{opacity:1;transform:none;transition:none;}
+  .js-loaded .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease;}
+  .js-loaded .reveal.in{opacity:1;transform:none;}
   @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}
     .reveal{opacity:1;transform:none;}html{scroll-behavior:auto;}}
   :focus-visible{outline:2px solid var(--brass);outline-offset:3px;}
